@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 25 22:22:28 2023
+# Process ID: 18888
+# Current directory: C:/Users/dimav/Downloads/Плисы/lab5_plis
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9156 C:\Users\dimav\Downloads\Плисы\lab5_plis\lab5_plis.xpr
+# Log file: C:/Users/dimav/Downloads/Плисы/lab5_plis/vivado.log
+# Journal file: C:/Users/dimav/Downloads/Плисы/lab5_plis\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/dimav/Downloads/Плисы/lab5_plis/lab5_plis.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb.tcl
+run all
+run all
+relaunch_sim
+restart
+run 10 s
+relaunch_sim
+restart
+run 10 s
+restart
+run 10 s
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run all
+run all
+run all
+run all
+relaunch_sim
+run all
+relaunch_sim
+run 10 us
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+close_sim

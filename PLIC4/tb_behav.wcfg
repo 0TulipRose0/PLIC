@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="905333333fs"></ZoomStartTime>
+      <ZoomEndTime time="1006933334fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb/CLOCK_50" type="logic">
+      <obj_property name="ElementShortName">CLOCK_50</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/SW" type="array">
+      <obj_property name="ElementShortName">SW[9:0]</obj_property>
+      <obj_property name="ObjectShortName">SW[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/KEY" type="array">
+      <obj_property name="ElementShortName">KEY[1:0]</obj_property>
+      <obj_property name="ObjectShortName">KEY[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/LEDR" type="array">
+      <obj_property name="ElementShortName">LEDR[9:0]</obj_property>
+      <obj_property name="ObjectShortName">LEDR[9:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reg0/count1" type="array">
+      <obj_property name="ElementShortName">count1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">count1[3:0]</obj_property>
+   </wvobject>
+</wave_config>
